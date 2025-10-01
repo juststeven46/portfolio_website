@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        'montserrat': ['Montserrat', 'sans-serif'],
+                    },
+                    colors: {
+                        'neon-purple': '#9b5de5',
+                        'neon-blue': '#00bbf9',
+                        'neon-red': '#ef233c',
+                        'neon-orange': '#ff6b35',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="font-montserrat text-white bg-black">
+    <nav class="bg-black p-4 fixed top-0 w-full z-50 border-b border-gray-700">
+        <div class="max-w-6xl mx-auto px-5 flex justify-between items-center">
+            <div class="text-neon-purple font-extrabold text-3xl">
+                <h2>Point Zero</h2>
+            </div>
+            <ul class="hidden md:flex space-x-8">
+                <li><a id="navbar-home" class="text-white font-medium hover:text-neon-purple hover:drop-shadow-[0_0_10px_#9b5de5] transition-all duration-300">Beranda</a></li>
+                <li><a id="navbar-article" class="text-white font-medium hover:text-neon-purple hover:drop-shadow-[0_0_10px_#9b5de5] transition-all duration-300">Berita</a></li>
+                <li><a id="navbar-maps"class="text-white font-medium hover:text-neon-purple hover:drop-shadow-[0_0_10px_#9b5de5] transition-all duration-300">Peta</a></li>
+                <li><a id="navbar-support" class="text-white font-medium hover:text-neon-purple hover:drop-shadow-[0_0_10px_#9b5de5] transition-all duration-300">Dukungan</a></li>
+                <li>
+                  <a id="navbar-social" class="text-white font-medium hover:text-neon-purple hover:drop-shadow-[0_0_10px_#9b5de5] transition-all duration-300">Sosial Media</a>
+                  <button id="toggle-menu">&#9660;</button>
+                </li>
+                <li><a href="#"></a></li>
+            </ul>
+            <button class="bg-gradient-to-r from-neon-purple to-neon-blue text-white px-6 py-3 rounded-full font-semibold hover:scale-105 hover:drop-shadow-[0_0_20px_rgba(155,93,229,0.5)] transition-all duration-300">
+                Mainkan Sekarang
+            </button>
+        </div>
+    </nav>
+    <section class="min-h-screen bg-gradient-to-br from-black to-gray-900 flex items-center justify-center pt-20">
+      <div class="flex flex-col items-center justify-center min-h-screen bg-gray-900 text-white">
+        <div class="max-w-3xl w-full px-6">
+        <h1 class="text-4xl font-bold text-center mb-8">Pusat Bantuan</h1>
+
+        <div class="mb-8">
+        <h2 class="text-2xl font-semibold mb-2">1. Bagaimana cara saya memainkannya?</h2>
+        <p class="text-lg leading-relaxed">
+        Kita mengembangkan game ini dengan bantuan Roblox Studio, jadi anda dapat membuat akun di Roblox terlebih dahulu.
+        Setelah itu, anda akan diarahkan dari link game supaya anda dapat memainkannya. Permainan akan dimulai dengan sejumlah uang dan anda harus membeli senjata dalam 15 detik pertama karena setelah itu anda tidak punya kesempatan untuk membeli senjata lagi.
+        Habisi tim musuh dengan sempurna agar tim anda bisa mendapatkan skor yang terbaik di tiap ronde.
+        </p>
+        </div>
+
+        <div class="mb-8">
+        <h2 class="text-2xl font-semibold mb-2">2. Mengapa saya tidak bisa menembak dengan baik dengan senjata tertentu?</h2>
+        <p class="text-lg leading-relaxed">
+        Mohon maaf, ada beberapa senjata yang mekanisme menembaknya masih dalam pengembangan, stay tuned untuk update berikutnya.
+        </p>
+        </div>
+        </div>
+      </div>
+
+    </section>
+</body>
+<script src="./UH1Steven.js"></script>
+</html>
