@@ -45,4 +45,10 @@ document.querySelectorAll(".dropdownbtn").forEach((btn) => {
   });
 });
 
+const desktopBtn = document.querySelector('.link-btn-desktop');
+const mobileBtn = document.querySelector('.link-btn-mobile');
+const gameLink = "https://www.roblox.com/games/"
+desktopBtn.addEventListener("click", () => {
+
+});
 
