@@ -1,6 +1,6 @@
 document.querySelectorAll(".navbar-home").forEach(el => {
   el.addEventListener("click", () => {
-    window.location.href = "UH1Steven.html";
+    window.location.href = "index.html";
   });
 });
 
