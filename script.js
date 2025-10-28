@@ -44,11 +44,11 @@ document.querySelectorAll(".dropdownbtn").forEach((btn) => {
     content.classList.toggle("hidden");
   });
 });
-
-const desktopBtn = document.querySelector('.link-btn-desktop');
-const mobileBtn = document.querySelector('.link-btn-mobile');
-const gameLink = "https://www.roblox.com/games/"
-desktopBtn.addEventListener("click", () => {
-
+const form = document.getElementById("form")
+form.addEventListener("submit", async (e) => {
+  e.preventDefault();
+  const data = {
+    name: document.getElementById("nama")
+  }
 });
 
