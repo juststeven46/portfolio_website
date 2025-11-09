@@ -140,8 +140,13 @@
   #mobile-nav.active {
     margin-top: 30px;
     right: 0;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
   }
-
+  #mobile-nav .link-btn-mobile {
+    margin-bottom: 20px; /* naik dikit dari bawah */
+  }
   #mobile-nav a {
     color: white;
     display: block;
