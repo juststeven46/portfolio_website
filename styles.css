@@ -145,7 +145,7 @@
     height: 100vh;
   }
   #mobile-nav .link-btn-mobile {
-    margin-bottom: 20px; /* naik dikit dari bawah */
+    margin-bottom: 48px; /* naik dikit dari bawah */
   }
   #mobile-nav a {
     color: white;
